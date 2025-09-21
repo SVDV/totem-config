@@ -469,30 +469,20 @@
         navigation_layer {
             display-name = "Nav";
             bindings = <
-//             ┌─────────────┬─────────────┬─────────────┬─────────────┬─────────────┐   ┌─────────────┬─────────────┬─────────────┬─────────────┬─────────────┐
-                  &trans          &trans          &trans          &trans          &trans               &trans          &trans          &trans          &trans          &trans
-//             ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                  &trans          &kp LCTRL       &kp LALT        &kp LGUI        &kp LSHFT           &trans          &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT
-// ┌─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┐
-     &trans           &trans          &trans          &meh            &hypr           &none           &trans          &kp HOME        &kp PG_DN       &kp PG_UP       &kp END         &trans
-// └─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────┘
-                                                &trans          &trans          &trans                   &trans          &trans          &trans
-//                                             └─────────────┴─────────────┴─────────────┘   └─────────────┴─────────────┴─────────────┘
+              &trans        &trans        &trans        &trans        &trans            &trans        &trans        &trans        &trans        &trans
+              &kp LCTRL     &kp LALT      &kp LGUI      &kp LSHFT     &trans            &trans        &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT
+&trans        &trans        &meh          &hypr         &none         &trans            &trans        &kp HOME      &kp PG_DN     &kp PG_UP     &kp END       &trans
+                                          &trans        &trans        &trans            &trans        &trans        &trans
             >;
         };
 
         number_layer {
             display-name = "Number";
             bindings = <
-//             ┌─────────────┬─────────────┬─────────────┬─────────────┬─────────────┐   ┌─────────────┬─────────────┬─────────────┬─────────────┬─────────────┐
-                  &none           &none           &none           &none           &none                &kp MINUS       &kp N7          &kp N8          &kp N9          &kp FSLH
-//             ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                  &trans          &kp LCTRL       &kp LALT        &kp LGUI        &kp LSHFT           &kp PLUS        &kp N4          &kp N5          &kp N6          &kp STAR
-// ┌─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┐
-     &none            &none           &none           &meh            &hypr           &none           &kp DOT         &kp N1          &kp N2          &kp N3          &kp EQUAL       &none
-// └─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────┘
-                                                &trans          &trans          &trans                   &kp DEL         &kp N0          &trans
-//                                             └─────────────┴─────────────┴─────────────┘   └─────────────┴─────────────┴─────────────┘
+               &none         &none         &none         &none         &none            &kp MINUS     &kp N7        &kp N8        &kp N9        &kp FSLH
+               &kp LCTRL     &kp LALT      &kp LGUI      &kp LSHFT     &none            &kp PLUS      &kp N4        &kp N5        &kp N6        &kp STAR
+&trans         &none         &meh          &hypr         &none         &none            &kp DOT       &kp N1        &kp N2        &kp N3        &kp EQUAL     &none
+                                          &trans        &trans        &trans            &kp DEL       &kp N0        &trans
             >;
         };
 
