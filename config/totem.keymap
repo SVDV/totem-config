@@ -449,8 +449,8 @@
         symbols_layer {
             display-name = "Symbols";
             bindings = <
-              &kp STAR      &kp AMPS      &kp LBRC      &kp RBRC      &kp GT            &trans        &trans        &trans        &trans        &trans        
-              &kp CARET     &kp PRCNT     &kp LBKT      &kp RBKT      &kp DLLR          &trans        &kp RSHFT     &kp RGUI      &kp RALT      &kp RCTRL     
+              &kp STAR      &kp AMPS      &kp LBRC      &kp RBRC      &kp GT            &trans        &trans        &trans        &trans        &trans
+              &kp CARET     &kp PRCNT     &kp LBKT      &kp RBKT      &kp DLLR          &trans        &kp RSHFT     &kp RGUI      &kp RALT      &kp RCTRL
 &kp TILDE     &kp AT        &kp HASH      &kp LPAR      &kp RPAR      &kp EXCL          &trans        &trans        &hypr         &meh          &trans        &trans
                                           &kp EQUAL     &kp GRAVE     &trans            &trans        &trans        &trans
             >;
@@ -459,15 +459,10 @@
         function_layer {
             display-name = "Function";
             bindings = <
-//             ┌─────────────┬─────────────┬─────────────┬─────────────┬─────────────┐   ┌─────────────┬─────────────┬─────────────┬─────────────┬─────────────┐
-                  &trans          &trans          &trans          &trans          &trans               &trans          &kp F7          &kp F8          &kp F9          &kp F12
-//             ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                  &trans          &kp LCTRL       &kp LALT        &kp LGUI        &kp LSHFT           &trans          &kp F4          &kp F5          &kp F6          &kp F11
-// ┌─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┐
-     &trans           &trans          &trans          &meh            &hypr           &trans          &trans          &kp F1          &kp F2          &kp F3          &kp F10         &trans
-// └─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────┘
-                                                &trans          &trans          &trans                   &trans          &trans          &trans
-//                                             └─────────────┴─────────────┴─────────────┘   └─────────────┴─────────────┴─────────────┘
+              &trans        &trans        &trans        &trans        &trans            &trans        &kp F7        &kp F8        &kp F9        &kp F12
+              &kp LCTRL     &kp LALT      &kp LGUI      &kp LSHFT     &trans            &trans        &kp F4        &kp F5        &kp F6        &kp F11
+&trans        &trans        &meh          &hypr         &trans        &trans            &trans        &kp F1        &kp F2        &kp F3        &kp F10       &trans
+                                          &trans        &trans        &trans            &trans        &trans        &trans
             >;
         };
 
