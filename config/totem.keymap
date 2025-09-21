@@ -449,15 +449,10 @@
         symbols_layer {
             display-name = "Symbols";
             bindings = <
-//             ┌─────────────┬─────────────┬─────────────┬─────────────┬─────────────┐   ┌─────────────┬─────────────┬─────────────┬─────────────┬─────────────┐
-                  &kp STAR        &kp AMPS        &kp LBRC        &kp RBRC        &kp GT               &trans          &trans          &trans          &trans          &trans
-//             ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                  &kp TILDE       &kp CARET       &kp PRCNT       &kp LBKT        &kp RBKT            &kp DLLR        &kp RSHFT       &kp RGUI        &kp RALT        &kp RCTRL
-// ┌─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┐
-     &trans           &trans          &kp AT          &kp HASH        &kp LPAR        &kp RPAR        &kp EXCL        &trans          &hypr           &meh            &trans          &trans
-// └─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────┘
-                                                &kp EQUAL       &kp GRAVE       &trans                   &trans          &trans          &trans
-//                                             └─────────────┴─────────────┴─────────────┘   └─────────────┴─────────────┴─────────────┘
+              &kp STAR      &kp AMPS      &kp LBRC      &kp RBRC      &kp GT            &trans        &trans        &trans        &trans        &trans        
+              &kp CARET     &kp PRCNT     &kp LBKT      &kp RBKT      &kp DLLR          &trans        &kp RSHFT     &kp RGUI      &kp RALT      &kp RCTRL     
+&kp TILDE     &kp AT        &kp HASH      &kp LPAR      &kp RPAR      &kp EXCL          &trans        &trans        &hypr         &meh          &trans        &trans
+                                          &kp EQUAL     &kp GRAVE     &trans            &trans        &trans        &trans
             >;
         };
 
