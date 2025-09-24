@@ -195,7 +195,7 @@
 
     combos {
         compatible = "zmk,combos";
-
+        global-quick-tap-ms = <75>;
         // Corner combos that work on all layers
         combo_caps_word {
             timeout-ms = <50>;
@@ -226,46 +226,12 @@
         };
 
         // MOUSE layer corner combos
-        combo_mouse_tl {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&trans>;
-            layers = <MOUSE>;
-        };
-
-        combo_mouse_tr {
-            timeout-ms = <50>;
-            key-positions = <8 9>;
-            bindings = <&trans>;
-            layers = <MOUSE>;
-        };
-
-        combo_mouse_bl {
-            timeout-ms = <50>;
-            key-positions = <21 22>;
-            bindings = <&trans>;
-            layers = <MOUSE>;
-        };
-
-        combo_mouse_br {
-            timeout-ms = <50>;
-            key-positions = <29 30>;
-            bindings = <&trans>;
-            layers = <MOUSE>;
-        };
 
         // SYMBOLS layer corner combos
         combo_symbols_tl {
             timeout-ms = <50>;
             key-positions = <0 1>;
             bindings = <&kp LT>;
-            layers = <SYMBOLS>;
-        };
-
-        combo_symbols_tr {
-            timeout-ms = <50>;
-            key-positions = <8 9>;
-            bindings = <&trans>;
             layers = <SYMBOLS>;
         };
 
@@ -276,99 +242,11 @@
             layers = <SYMBOLS>;
         };
 
-        combo_symbols_br {
-            timeout-ms = <50>;
-            key-positions = <29 30>;
-            bindings = <&trans>;
-            layers = <SYMBOLS>;
-        };
-
         // FUNCTION layer corner combos
-        combo_function_tl {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&trans>;
-            layers = <FUNCTION>;
-        };
-
-        combo_function_tr {
-            timeout-ms = <50>;
-            key-positions = <8 9>;
-            bindings = <&trans>;
-            layers = <FUNCTION>;
-        };
-
-        combo_function_bl {
-            timeout-ms = <50>;
-            key-positions = <21 22>;
-            bindings = <&trans>;
-            layers = <FUNCTION>;
-        };
-
-        combo_function_br {
-            timeout-ms = <50>;
-            key-positions = <29 30>;
-            bindings = <&trans>;
-            layers = <FUNCTION>;
-        };
 
         // NAV layer corner combos
-        combo_nav_tl {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&trans>;
-            layers = <NAV>;
-        };
-
-        combo_nav_tr {
-            timeout-ms = <50>;
-            key-positions = <8 9>;
-            bindings = <&trans>;
-            layers = <NAV>;
-        };
-
-        combo_nav_bl {
-            timeout-ms = <50>;
-            key-positions = <21 22>;
-            bindings = <&trans>;
-            layers = <NAV>;
-        };
-
-        combo_nav_br {
-            timeout-ms = <50>;
-            key-positions = <29 30>;
-            bindings = <&trans>;
-            layers = <NAV>;
-        };
 
         // NUMBER layer corner combos
-        combo_number_tl {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&none>;
-            layers = <NUMBER>;
-        };
-
-        combo_number_tr {
-            timeout-ms = <50>;
-            key-positions = <8 9>;
-            bindings = <&none>;
-            layers = <NUMBER>;
-        };
-
-        combo_number_bl {
-            timeout-ms = <50>;
-            key-positions = <21 22>;
-            bindings = <&none>;
-            layers = <NUMBER>;
-        };
-
-        combo_number_br {
-            timeout-ms = <50>;
-            key-positions = <29 30>;
-            bindings = <&none>;
-            layers = <NUMBER>;
-        };
 
         // SETTINGS layer corner combos
         combo_settings_tl {
@@ -382,20 +260,6 @@
             timeout-ms = <50>;
             key-positions = <8 9>;
             bindings = <&bootloader>;
-            layers = <SETTINGS>;
-        };
-
-        combo_settings_bl {
-            timeout-ms = <50>;
-            key-positions = <21 22>;
-            bindings = <&trans>;
-            layers = <SETTINGS>;
-        };
-
-        combo_settings_br {
-            timeout-ms = <50>;
-            key-positions = <29 30>;
-            bindings = <&trans>;
             layers = <SETTINGS>;
         };
 
