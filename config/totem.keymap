@@ -206,7 +206,7 @@
 
         combo_backslash {
             timeout-ms = <50>;
-            key-positions = <8 9>;  // Y + ;
+            key-positions = <0 9>;  // Q + P
             bindings = <&kp BACKSLASH>;
             layers = <DEFAULT>;
         };
